@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Candal);
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Sansita+One);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Marcellus);
+@import url(https://fonts.googleapis.com/css?family=Pinyon+Script);
+
+@font-face {
+	font-family: 'ume-tgc4';
+	src: url('fonts_jp/ume-tgc4.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
+/*IE*/
+@font-face {
+	font-family: 'ume-tgc4';
+	src: url('fonts_jp/ume-tgc4.eot');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'ume-tmo3';
+	src: url('fonts_jp/ume-tmo3.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
+/*IE*/
+@font-face {
+	font-family: 'ume-tmo3';
+	src: url('fonts_jp/ume-tmo3.eot');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'NotoSansCJKjp-Regular';
+	src: url('fonts_jp/NotoSansCJKjp-Regular.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
+/*IE*/
+@font-face {
+	font-family: 'NotoSansCJKjp-Regular';
+	src: url('fonts_jp/NotoSansCJKjp-Regular.eot');
+	font-weight: normal;
+    font-style: normal;
+}
+
+/*
+ * "mplus-TESTFLIGHT-060" licensed under the SIL Open Font License
+ * http://mplus-fonts.osdn.jp/
+ */
+
+
+@font-face {
+    font-family: 'mplus-TESTFLIGHT-060';
+    src:    url('fonts_jp/mplus-1c-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*IE*/
+@font-face {
+	font-family: 'mplus-TESTFLIGHT-060';
+	src: url('fonts_jp/mplus-1c-regular.eot');
+	font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon_02.eot?6qfj3d');
+    src:    url('fonts/icomoon_02.eot?6qfj3d#iefix') format('embedded-opentype'),
+        url('fonts/icomoon_02.ttf?6qfj3d') format('truetype'),
+        url('fonts/icomoon_02.woff?6qfj3d') format('woff'),
+        url('fonts/icomoon_02.svg?6qfj3d#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bin:before {
+    content: "\e9ac";
+}
+.icon-eye:before {
+    content: "\e9ce";
+}
+.icon-cross:before {
+    content: "\ea0f";
+}

@@ -1,0 +1,1335 @@
+@charset "UTF-8";
+
+/*// 事業者紹介 //*/
+.companyBox {
+
+}
+.companyBox p {
+    padding: 1em;
+}
+.companyInner {
+    padding: 0 1em;
+}
+.companyInner table {
+    width: 100%;
+    border: 1px solid #999999;
+}
+.companyInner table th {
+    width: 30%;
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
+    text-align: left;
+    background: #dfdfdf;
+    font-weight: normal;
+}
+.companyInner table td {
+    width: 70%;
+    border-bottom: 1px solid #999999;
+}
+.companyInner table td img {
+    max-width: 100%;
+    width: 100%;
+}
+.companyInner table td a {
+    text-decoration: underline;
+}
+/*// よくある質問 //*/
+.faqMain {
+
+}
+.faq_box {
+
+}
+.faqInner {
+    padding: 1em;
+}
+.faq .faq_box {
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+#main .faq_box h3 {
+    border-bottom: none;
+    text-align: left;
+}
+#main .faq_box h3 span {
+    background: #ff0000;
+    color: #ffffff;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+}
+.qList {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.qList li {
+    margin-bottom: 1em;
+}
+.qList li a:before {
+    background: #ff0000;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    content:"Q";
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+    font-weight :bold;
+    margin-right: .5em;
+}
+.qList li a {
+    text-decoration :underline;
+}
+.faq_box dl {
+    margin-top: -110px;
+    padding-top: 110px;
+}
+.faq_box dl.ansList {
+    padding-left:0;
+}
+.faq_box dl dt:before {
+    background: url("../img/common/icno_q.png") no-repeat 0 0 / 40px auto;
+    top: -12px;
+}
+.faq_box dl dt {
+    height: 40px;
+    line-height: 1;
+    padding-left: 50px;
+}
+.faq_box dl dd::before {
+    background: url("../img/common/icon_answer.png") no-repeat 1em 0 / 40px auto;
+}
+.faq_box dl dd {
+    padding-left: 50px;
+}
+/*// ココロザシ//*/
+.feature {
+
+}
+.feature .aboutBox {
+
+}
+.feature #main .aboutBox h3 {
+    border-bottom: none;
+    text-align: left;
+    margin: 2rem 1rem 1rem 1rem;
+    font-size: 1.2rem;
+}
+.aboutBox .text {
+    padding: 0 1rem
+}
+.aboutBox .text p {
+    margin: 0 0 1.5rem ;
+}
+.feature #main .aboutBox h3 span {
+    background: #ff0000;
+    color: #ffffff;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+}
+.cCopy {
+    color :#ff0000;
+    margin: 1.5rem 1rem;
+    font-size: 1.15rem;
+    line-height: 1.2;
+}
+.feature #main .aboutBox ul{
+    margin: 1rem 2rem;
+}
+
+
+
+
+/*** 購入の流れ ***/
+.sub.order #main {
+    /*width: 1000px;*/
+    position: relative;
+}
+.order #right_menu {
+    top: 60px;
+}
+.order #right_menu.fixed {
+    /*right: 0;*/
+    top: 60px;
+}
+.order #right_menu.getfloat {
+
+}
+
+.orderBox .orderInner{
+    padding: 0 1rem;
+    margin-bottom: 3rem;
+}
+.order #main .orderInner h3 {
+    border-bottom: none;
+    text-align: left;
+    margin: 2rem 1rem 1rem 0;
+    font-weight: normal;
+}
+.order #main .orderInner h3 span {
+    background: #ff0000;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 1rem;
+}
+.orderInner .cCopy {
+    margin: 0;
+}
+.orderInner .text p {
+    margin: 1rem 0;
+}
+.orderSteps {
+    text-align: center;
+}
+.orderSteps h4 {
+    background :#f2f2f2;
+    padding: .5rem;
+    text-align: left;
+}
+.orderSteps h4 span {
+    color :#ff0000;
+    margin-right: 0.5rem;
+}
+.orderSteps:after {
+    background: url("../img/common/icon_arrow.png") no-repeat 1em 0;
+    content:"";
+    display: block;
+    height: 40px;
+    width: 300px;
+}
+.orderSteps p {
+    text-align: left;
+}
+.orderSteps:last-child:after {
+    background:none;
+    height: 0;
+}
+.orderSteps img {
+    width: 100px;
+}
+.orderSteps img.pc {
+    max-width: 100%;
+}
+.filetype img {
+    max-width: 80px;
+}
+.free {
+
+}
+.free li {
+    background: #ff0000;
+    color: #ffffff;
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 1rem;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+.link_file_type a{
+    height: 42px;
+    line-height: 42px;
+    text-decoration: underline;
+}
+.difference {
+
+}
+.ttl_how {
+    background: #ff0000;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+}
+.ttl_how_sub {
+    color: #ff0000;
+}
+.difference_text {
+    border: #ff0000 3px solid;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: left;
+}
+/*// 料金について//*/
+.priceBox {
+
+}
+#main .priceBox h3 {
+    border-bottom: none;
+    text-align: left;
+    margin: 2rem 1rem 1rem  1rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+#main .priceBox h3 span {
+    background: #ff0000;
+    color: #ffffff;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 1rem;
+}
+.priceList {
+    padding: 0 1rem;
+}
+.priceList .price {
+    float: left;
+    width: 50%;
+}
+.priceList .free{
+    float: left;
+    width: 50%;
+    padding-top: 3.5rem;
+}
+.priceList .price li{
+    background :#f2f2f2;
+    color :#ff0000;
+    margin-bottom: .5rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    font-size: 1rem;
+}
+.priceList .free li{
+    padding: 0.5rem;
+    font-size: 1rem;
+    background: #ff0000;
+    color: #ffffff;
+}
+.priceList:after {
+    clear: both;
+    content:"";
+    display: block;
+}
+.priceBox p {
+    margin: 1rem;
+}
+.priceBox .file h4 {
+    background :#f2f2f2;
+    color :#ff0000;
+    margin: 1rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    font-size: 1rem;
+}
+/*** ロゴマーケットとは ***/
+.logomarket {
+
+}
+.logomarket .aboutBox {
+
+}
+#main .aboutBox h3 {
+    border-bottom: none;
+    text-align: left;
+    margin: 2rem 1rem 1rem  1rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+#main .aboutBox h3 span {
+    background: #ff0000;
+    color: #ffffff;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 1rem;
+}
+/*** 商標登録 ***/
+#main .trademarkBox h3 {
+    text-align: left;
+    margin: 2rem 1rem 0 1rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #ff0000;
+}
+#main .trademarkBox h3 span {
+    background: #ff0000;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: .3rem;
+}
+#main .trademarkBox h3.question {
+    border-bottom: none;
+    margin-left: 3em;
+    text-indent: -2.5em;
+}
+#main .trademarkBox h3.question span {
+    margin-right: .5rem;
+}
+#main .trademarkBox p span.answer {
+    background: #fff;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-right: .5rem;
+    margin-bottom: .3rem;
+}
+.trademarkInner .text {
+    padding: 0 1rem;
+}
+.trademarkInner .imgBox {
+    text-align: center;
+}
+.trademarkInner .imgBox img{
+    margin: 0 auto;
+    /*width: 100%;*/
+}
+#main .trademarkInner h3.cCopy {
+    color: #333;
+    margin-bottom: 0;
+    border-bottom: none;
+    text-align: center;
+}
+.trademark_reason {
+    margin: 0;
+    padding: 1rem;
+    background: #f2f2f2;
+}
+ol.trademark_reason li{
+    margin-left: 2rem;
+}
+.trademark_reason li {
+    padding: .5rem;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.trademark_reason li span {
+    color :#ff0000;
+    margin-right: 0.5rem;
+}
+.trademark_merit {
+    margin-left: 3em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.trademark_merit li {
+    padding: .5rem;
+    position: relative;
+}
+.trademark_merit li:after {
+    position: relative;
+    display: block;
+    content: '';
+    position: absolute;
+    top: .9rem;
+    left: -1em;
+    width: 8px;
+    height: 3px;
+    border-left: 3px solid #ff0000;
+    border-bottom: 3px solid #ff0000;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.trademarkInner table{
+    border : 1px solid #cccccc;
+    border-right : none;
+    border-bottom : none;
+    margin: 1rem;
+    font-size: 0.75rem;
+}
+.trademarkInner table th{
+    width: 9%;
+    background: #f2f2f2;
+    font-weight: normal;
+    text-align: left;
+    border-right : 1px solid #cccccc;
+    border-bottom : 1px solid #cccccc;
+}
+.trademarkInner table td{
+    padding: 0.5rem;
+    text-align: right;
+    border-right : 1px solid #cccccc;
+    border-bottom : 1px solid #cccccc;
+}
+.trademarkInner table th.officeMM, 
+.trademarkInner table td.officeMM{
+    background: rgba(255, 0, 0, 0.3) ;
+    font-weight: bold;
+    font-size: 0.8rem;
+    width: 10%;
+}
+.trademarkInner table th.officeMM {
+    text-align: center;
+}
+.trademarkInner p {
+    /*padding: 1rem;*/
+    padding-top: 1rem;
+    margin: 0;
+}
+.trademarkInner p.textB {
+    margin-top: 2rem;
+    padding-bottom: 0;
+}
+.trademarkInner p.textC {
+    margin-bottom: 2rem;
+    padding-top: 0;
+}
+.trademark .links {
+
+}
+.trademark .links li {
+    margin-left: 1rem;
+}
+.trademark .links li a{
+    text-decoration :underline;
+    padding: 0.5rem;
+    width: 90%;
+}
+.trademark .links li a:hover{
+    background: rgba(255,0,0,.3);
+    text-decoration: none;
+}
+/*** プライバシーポリシー ***/
+#main .privacyBox .privacyInner .privacy h3 {
+    border-bottom: 1px solid #ff0000;
+    text-align: left;
+}
+.privacyInner p{
+    margin: 1rem 1rem 2rem 1rem;
+}
+.privacyInner .privacy {
+    padding: 1rem;
+}
+.privacyInner .privacy ul {
+    margin: 2rem;
+}
+.privacyInner .privacy ul li{
+    list-style:disc;
+    margin-bottom: .5rem;
+}
+.privacyInner .privacy ul li a{
+    display: inline-block;
+    text-decoration: underline;
+}
+.button-inquiry {
+    background: rgb(255,0,0);
+    background: -moz-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(204,0,4,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,0,0,1) 0%,rgba(204,0,4,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,0,0,1) 0%,rgba(204,0,4,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#cc0004',GradientType=0 );
+    border:0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    color:#FFFFFF;
+    width:300px;
+    height:62px;
+    font-size:16px;
+    margin: 0 auto 2em auto;
+    display: block;
+    text-align: center;
+    line-height: 62px;
+    font-weight: bold;
+}
+.button-inquiry a{
+    color:#FFFFFF;
+}
+/*** 特定商取引 ***/
+.lawBox {
+
+}
+.lawInner {
+    margin: 1rem;
+}
+.lawInner table {
+    border-top: 1px solid #999999;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+.lawInner table th {
+    width: 30%;
+    text-align: left;
+    font-weight: normal;
+    background: #dfdfdf;
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
+    padding: .8rem .5rem
+}
+.lawInner table td {
+    border-bottom: 1px solid #999999;
+    padding: .8rem .5rem
+}
+/*** リンク集 ***/
+.link-list {
+    padding: 1rem;
+}
+.link-list .link-name a{
+    text-decoration: underline;
+    font-size: 1.05rem;
+}
+.link-desc {
+    margin-bottom: 2rem;
+}
+/*** サイトマップ ***/
+.sitemapInner {
+    padding: 1rem;
+}
+.sitemapBox .sitemap {
+    margin: 1rem;
+}
+#main .sitemap li h3 a{
+    text-decoration: none;
+}
+.sitemapBox .sitemap li{
+    margin-bottom: .5rem;
+}
+.sitemapBox .sitemap li a{
+    margin-left: 1rem;
+}
+/* 業界別ロゴマーク */
+.industryDetail_inner {
+    padding: 1rem;
+}
+#main .industryDetail h3 {
+    color: #ff0000;
+    text-align: left;
+    font-weight: normal;
+    font-size: 18px;
+}
+#main .industryDetail h3:before {
+    content:"■";
+    display: inline;
+    color: #ff0000;
+    font-size: 20px;
+}
+.industryDetail_inner .text{
+    margin-bottom: 2rem;
+}
+.keyowrdList {
+    text-align: center;
+}
+.keyowrdList li {
+    display: inline-block;
+}
+.keyowrdList li a {
+    text-decoration: underline;
+    padding: 0 0.5rem;
+}
+.moreLink a:active,
+.moreLink a:hover,
+.keyowrdList li a:active,
+.keyowrdList li a:hover {
+    background: rgba(255,0,0,.3);
+    color: #ffffff;
+    text-decoration: none;
+}
+.industryDetail_inner .logoList ul li {
+    margin-right: 0;
+}
+.moreLink {
+    margin: 0 auto 2rem;
+    text-align: center;
+    font-size: 16px;
+    width: 60%;
+}
+.moreLink a{
+    text-decoration: underline;
+}
+.otherLinks::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.otherLinks {
+    margin: 0 auto;
+    text-align: center;
+}
+.otherLinks li {
+    float: left;
+    width: 45%;
+    border: 1px solid #ff0000;
+    margin-bottom: 1rem;
+}
+.otherLinks li:nth-child(1n) {
+    margin-right: 1rem;
+}
+.otherLinks li a {
+    padding: 0.5rem 0 ;
+}
+.otherLinks li.active {
+    background: rgba(255,0,0,1);
+}
+.otherLinks li.active a{
+    color: #ffffff;
+}
+.otherLinks li:active,
+.otherLinks li:hover {
+    border: 1px solid #FFB2B2;
+}
+.otherLinks li a:active,
+.otherLinks li a:hover {
+    background: #FFB2B2;
+    color: #ffffff;
+}
+.relatedLinks {
+    margin: 0;
+}
+.relatedLinks a{
+    text-decoration: underline;
+    display: inline-block;
+    padding: .5rem 0 ;
+}
+.relatedLinks a:active,
+.relatedLinks a:hover{
+    background: #FFB2B2;
+    color: #ffffff;
+    text-decoration: none;
+}
+.company_name {
+    font-family: "ume-tgc4", "M+ C Type-1 Regular", "M+ P Type-1 (basic latin) Black", 'Pacifico', cursive;
+}
+
+.logomarket #main .aboutBox h3 {
+    margin-top: -60px;
+    padding-top: 60px;
+}
+.circleBox {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 2rem;
+    padding: 1em;
+}
+.circleBox:after {
+    display: block;
+    content:"";
+    clear:both;
+}
+.circle {
+    background: #ff0000;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0 10px 10px 0;
+    float: left;
+}
+.circle a {
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.circle:nth-child(3) a,
+.circle:nth-child(12) a {
+    padding-top: 44px;
+}
+.circle:nth-child(9) a,
+.circle:nth-child(10) a {
+    padding-top: 20px;
+}
+#main .aboutBox h3 {
+    margin-top: -2rem;
+}
+.circle_unit {
+    float: none;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.circle_unit.singleline{
+    padding-top: 44px;
+}
+.circle_unit.tripleline{
+    padding-top: 20px;
+}
+.logo_count {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 2rem;
+}
+.logo_count:after {
+    display: block;
+    content:"";
+    clear:both;
+}
+.logo_count dl {
+    margin: 0 auto;
+    width: 90%;
+}
+.logo_count dl dt {
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+.logo_count dl dd {
+    float: left;
+    color: #ffffff;
+    background: #ff0000;
+    text-align: center;
+    width: 50px;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 10px 10px 0;
+    font-size: 30px;
+    padding: 0 10px;
+}
+.aboutBox .designer {
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+    margin: 0 auto 2rem;
+}
+.aboutBox .designer:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.aboutBox .designer li {
+    width: 80px;
+    max-width: 30%;
+    margin-right: 10px;
+    display: inline-block;
+    line-height: 1;
+}
+.aboutBox .designer li img {
+    width: 100%;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+}
+.aboutBox .designer li img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: none;
+}
+.aboutBox .designer li:nth-child(3n) {
+    margin-right: 0;
+}
+
+/*// Blog List //*/
+article.blog_list {
+    border-bottom: 2px solid #ff0000;
+    margin: 0 1em 2em 1em;
+    padding-bottom: 1em;
+}
+#contents h2.blog_cate {
+    background: #dfdfdf none repeat scroll 0 0;
+    border-bottom: none;
+    font-size: 14px;
+    margin: 2em auto;
+    padding: 5px 0;
+}
+article .blogTag ul {
+    margin: 0.5em 0;
+}
+#main .blogDetail article h3.blog_title {
+    padding-left: 0;
+    border-bottom: none;
+    font-size: 16px;
+    font-weight: normal;
+}
+#main .blogDetail article h3.blog_title a{
+    text-decoration: underline;
+}
+article .blogDetail_inner {
+    margin: 0;
+}
+article .blogDetail_inner img {
+    width :100%;
+}
+#main article .blogDetail_inner p.text{
+    margin: 0;
+    line-height: 1.5;
+}
+.blogTag_list {
+    text-align: center;
+}
+.blogTag_list ul {
+    margin:0 auto;
+}
+.blogTag_list ul li {
+    background: #dfdfdf;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 0.5em;
+    font-size: 16px;
+    width: 46%;
+    text-align: center;
+}
+
+/*** small sp ***/
+@media screen and  (min-width: 320px) and (max-width: 359px) {
+}
+
+/*** PC ***/
+@media screen and (min-width: 769px) {
+    .pc {
+        display: none;
+    }
+    p {
+        line-height: 2;
+        font-size: 1.15em;
+    }
+    /*// 事業者紹介 //*/
+    .companyBox {
+        margin-top: 2em;
+        width: 740px;
+    }
+    .companyBox p{
+        padding: 1em 0;
+    }
+    .companyInner table td {
+        padding: 1em;
+    }
+    .companyInner table td img {
+        width :auto;
+    }
+    .company .right_cont {
+
+    }
+    .company #right_menu {
+        top: 10px;
+        margin-bottom: 500px;
+    }
+    /*// よくある質問 //*/
+    .faqMain {
+        margin-top: 2em;
+        width: 740px;
+    }
+    .qList li {
+        margin-bottom: 1.5em;
+    }
+    .faq_box dl {
+        margin-bottom: 5rem;
+    }
+    .faq_box dl dt:before {
+        background-size : 51px;
+        height: 51px;
+    }
+    .faq_box dl dt {
+        height: 51px;
+        padding-left: 70px;
+        margin-bottom: 1rem;
+    }
+    .faq_box dl dd:before {
+        background-size : 51px;
+        height: 51px;
+        width:65px;
+    }
+    .faq_box dl dd {
+        padding-left: 70px;
+        line-height: 2;
+    }
+    /*
+        .faq #right_menu {
+            top: 10px;
+        }
+        .faq #right_menu.fixed {
+            top: 60px;
+            }
+    */
+    .faq #right_menu.fixed {
+        top: 60px;
+    }
+    .faq #right_menu {
+        top: 10px;
+    }
+    /*// ココロザシ//*/
+    .feature .aboutBox {
+        margin-top: 2em;
+        width: 740px;
+    }
+    .feature #main .aboutBox .lead {
+        text-align: center;
+    }
+    .feature #main .aboutBox h3 {
+        font-size: 24px;
+    }
+    .feature #main .aboutBox .lead h3 {
+        text-align: center;
+        margin-left: 0;
+    }
+    .aboutBox .text {
+        margin-bottom: 3rem;
+    }
+    /*** 購入の流れ ***/
+    .order #right_menu {
+        top: 10px;
+    }
+    .orderBox {
+        margin-top: 2em;
+        width: 740px;
+    }
+    .orderBox .orderInner {
+        padding: 0;
+    }
+    .order #main .orderInner h3 {
+        font-size: 25px;
+    }
+    .orderSteps h4 {
+        font-weight: normal;
+        font-size: 1.05rem;
+    }
+    .orderSteps h4 span {
+        margin-left: 0.5rem;
+    }
+    .orderInner .cCopy {
+        line-height: 1.5;
+        margin: 1.5rem 1rem;
+        font-size: 25px;
+    }
+    .orderInner .text p {
+        line-height: 2;
+        margin-bottom: 2rem;
+    }
+    /*// 料金について//*/
+    .price #main {
+        width: 740px;
+    }
+    .price #right_menu {
+        top: 10px;
+    }
+    .price #right_menu.fixed {
+        top: 60px;
+    }
+    .priceBox {
+        margin-top: 2em;
+        width: 740px;
+    }
+
+    #main .priceBox h3 {
+        margin-left: 0;
+        font-size: 25px;
+    }
+    .priceBox .cCopy{
+        font-size: 25px;
+    }
+    .priceList {
+        padding: 0;
+    }
+    .priceList .price li {
+        width: 90%;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+    .priceList .free li {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        padding: 0;
+        text-align: center;
+    }
+    .priceBox .file h4 {
+        width: 43%;
+        margin-left: 0;
+        font-size:1.25rem ;
+    }
+    .priceBox .text p {
+        line-height: 2;
+        margin-top:0;
+    }
+    .file {
+        margin-top: 4rem;
+    }
+    .file .text {
+        margin-bottom: 3rem;
+    }
+    .file .text p {
+        line-height: 1.7;
+    }
+    .file .text {
+        margin-bottom: 2rem;
+    }
+    /*** ロゴマーケットとは ***/
+    .logomarket #right_menu{
+        top: 10px;
+    }
+    .logomarket #right_menu.fixed{
+        top: 60px;
+    }
+
+    .logomarket .aboutBox {
+        margin-top: 2em;
+        width: 740px;
+    }
+    #main .aboutBox h3 {
+        margin-left: 0;
+        font-size: 25px;
+    }
+    .logomarket .cCopy {
+        font-size: 25px;
+    }
+    .logomarket .cCopy,
+    .logomarket .text  {
+        margin-left: 58px;
+    }
+    .logomarket .text {
+        padding: 0;
+    }
+    .logomarket .text p {
+        line-height: 2;
+    }
+    /*** 商標登録 ***/
+    .trademarkBox {
+        margin-top: 2em;
+        width: 740px;
+    }
+    .trademark #right_menu {
+        top: 10px;
+    }
+    .trademark #right_menu.fixed {
+        top: 60px;
+    }
+    #main .trademarkBox h3 {
+        margin: 2rem 0 1rem 0;
+    }
+    .trademarkInner p {
+        line-height: 2;
+    }
+    /*** プライバシーポリシー ***/
+    .privacyBox {
+        margin-top: 2em;
+        width: 740px;
+    }
+    .privacyInner .privacy {
+        padding: 0;
+    }
+    /*** 特定商取引 ***/
+    .lawBox {
+        margin-top: 2em;
+        width: 740px;
+    }
+    .lawInner {
+        margin: 0;
+    }
+    /*** リンク集 ***/
+    .linkpageBox {
+        margin-top: 2em;
+        width: 740px;
+    }
+    .link-list {
+        padding: 0;
+        margin-top: 2rem;
+    }
+    /*** サイトマップ ***/
+    .sitemapBox {
+        margin-top: 2em;
+        width: 740px;
+    }
+    .sitemapInner p {
+        margin: 0;
+    }
+    .sitemapBox .sitemap {
+        margin: 0;
+    }
+    #main .sitemap li h3 {
+        font-size: 1rem;
+        text-align: left;
+        margin-top: 4rem;
+    }
+    /*** コンシェルジュ ***/
+    #contents.concierge {
+        margin: 0 auto;
+    }
+    .concierge #right_menu {
+        top: 10px;
+    }
+    /*
+        .concierge #right_menu.fixed {
+            top: 60px;
+        }
+    */
+    #main .conciergeBox h3 {
+        font-size: 25px;
+    }
+    #main .conciergeBox .cCopy {
+        font-size: 25px;
+        color :#ff0000;
+        line-height: 1.5;
+    }
+    /* 業界別ロゴマーク */
+    .industry #right_menu {
+        top: 10px;
+    }
+    .industry #right_menu.fixed {
+        top: 60px;
+    }
+    #main .industryDetail h3 {
+        margin-top: 3rem;
+    }
+    #main .industryDetail h3:before {
+        font-size: 26px;
+    }
+    /* 業界別ロゴマーク detail */
+    #main .industryDetail h3 {
+        font-size: 20px;
+    }
+    .industryDetail_inner {
+        padding: 0;
+    }
+    .industryDetail_inner .text {
+        line-height: 2.5;
+    }
+    .industryDetail_inner .logoList {
+        width:740px;
+        margin: 2rem auto;
+        padding: 0;
+    }
+    .industryDetail_inner .logoList ul {
+        text-align: center;
+    }
+    .industryDetail_inner .logoList ul li{
+        margin-right: 16px;
+        float: none;
+    }
+    .industryDetail_inner .logoList ul li:nth-child(3){
+        margin-right: 0;
+    }
+    .keyowrdList {
+        text-align: left;
+    }
+    .otherLinks {
+        width: 464px;
+    }
+    .otherLinks li {
+        width: 200px;
+        font-size: 18px;
+        margin-right: 2rem;
+    }
+    .otherLinks li a {
+        padding:1rem 0;
+    }
+
+
+    .circleBox {
+        width: 525px;
+        padding: 0;
+        margin-bottom: 4rem;
+    }
+    .circle {
+        width: 160px;
+        height: 160px;
+        margin: 0 15px 15px 0;
+
+    }
+    .circle a {
+        font-weight: normal;
+        font-size: 20px;
+        padding-top: 55px;
+    }
+    .circle:nth-child(3) a,
+    .circle:nth-child(12) a {
+        padding-top: 68px;
+    }
+    .circle:nth-child(9) a,
+    .circle:nth-child(10) a {
+        padding-top: 37px;
+    }
+    .circle.circle_unit {
+        margin: 3rem auto;
+        font-size: 20px;
+        padding-top: 55px;
+        font-weight: normal;
+    }
+    .circle_unit.singleline {
+        padding-top: 68px;
+    }
+    .circle_unit.tripleline {
+        padding-top: 37px;
+    }
+    .logo_count {
+        width: 50%;
+        margin-bottom: 4rem;
+    }
+    .aboutBox .designer {
+        width: 50%;
+    }
+    .aboutBox .designer li {
+        width: 120px;
+        margin-bottom: 10px;
+    }
+    .logomarket #main .aboutBox h3 {
+        padding-top: 80px;
+    }
+
+    .trademarkInner .text {
+        padding: 0;
+    }
+
+    .orderSteps img.sp {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .orderSteps .free {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .filetype {
+        margin: 2rem auto;
+    }
+    .difference .ttl_how{
+
+    }
+    .inquiry #right_menu,
+    .voice #right_menu {
+        top: 10px;
+    }
+    .
+    .voice #right_menu.fixed {
+        top: 60px;
+    }
+
+    .conciergeBox .text.red {
+        padding-left: 0;
+        margin: 0;
+    }
+
+    #contents h2.blog_cate {
+        width: 20em;
+        margin: 2em 0;
+    }
+    #main article .blogDetail_inner p.text{
+        margin: 0;
+        line-height: 1.5;
+    }
+
+    .voice_client .c_voice {
+        line-height: 2;
+    }
+
+    .recruit .aboutBox{
+        margin-top: 2em;
+        width: 740px;
+    }
+
+    .recruit .cCopy{
+        font-size: 25px;
+    }
+    .recruit.text{
+        padding: 0;
+    }
+    .recruit .cCopy, .recruit .text{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+
+
+/*** Wide ***/
+@media (min-width: 1280px) {
+
+}

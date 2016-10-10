@@ -1,0 +1,56 @@
+/*
+ * "mplus-TESTFLIGHT-060" licensed under the SIL Open Font License
+ * http://mplus-fonts.osdn.jp/（配布元のURL）
+ */
+
+
+@font-face {
+    font-family: 'mplus-TESTFLIGHT-060';
+    src:    url('fonts/mplus-1c-regular.ttf?') format('truetype'),
+        font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tel:before {
+    content: "\e900";
+}
+.icon-cart:before {
+    content: "\e901";
+}
+.icon-contact:before {
+    content: "\e902";
+}
+.icon-home:before {
+    content: "\e903";
+}
+.icon-price:before {
+    content: "\e911";
+}
+.icon-qa:before {
+    content: "\e912";
+}
+.icon-search_s:before {
+    content: "\e913";
+}
+.icon-voice:before {
+    content: "\e914";
+}
+
