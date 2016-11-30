@@ -1760,13 +1760,12 @@ class WP_Rewrite {
 		);
 		$args = array_intersect_key( $args, $defaults );
 		$args = wp_parse_args( $args, $defaults );
-
 		if ( $args['with_front'] )
 			$struct = $this->front . $struct;
 		else
 			$struct = $this->root . $struct;
 		$args['struct'] = $struct;
-
+                
 		$this->extra_permastructs[ $name ] = $args;
 	}
 
